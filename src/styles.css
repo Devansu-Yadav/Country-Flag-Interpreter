@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap");
+
+body {
+  background-color: #fcd34d;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input {
+  width: 80%;
+  padding: 1rem;
+}
+
+.App #app-heading {
+  font-family: "Roboto Mono", monospace;
+  font-size: 3.5rem;
+}
+
+.App .userInput {
+  font-size: 1.5rem;
+  padding: 1rem 0rem;
+}
+
+.App .flags {
+  font-size: 2rem;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 50px);
+  grid-column-gap: 0.8rem;
+  width: 80%;
+  margin: 1rem auto;
+}
